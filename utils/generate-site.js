@@ -28,7 +28,7 @@ const copyFile = fileContent => {
                 return
             }
 
-            resolveCaa({
+            resolve({
                 ok: true,
                 message: 'file copied!'
             });
